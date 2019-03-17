@@ -1,0 +1,25 @@
+var myImg = document.querySelector('img');
+
+myImage.onclick = function() {
+    var mySource = myImage.getAttribute('src');
+if(mySource === 'Jack_of_diamonds.png'){
+myImg.setAttribute('src','2_of_clubs.png');
+}
+
+if (mySource === '2_of_clubs.png'){
+myImg.setAttribute('src','2_of_spades.png');
+}
+
+if (mySource === '2_of_spades.png'){
+myImg.setAttribute('src','Ace_of_Clubs.png');
+}
+
+if (mySource === 'Ace_of_Clubs.png'){
+myImg.setAttribute('src','Ace_of_Spades.png');
+}
+
+if (mySource === 'Ace_of_Spades.png'){
+myImg.setAttribute('src','Jack_of_diamonds.png');
+}
+
+}

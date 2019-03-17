@@ -1,0 +1,36 @@
+html{
+background-color: #0C450D;
+}
+
+p,li,h1 {
+font-family: 'Permanent Marker', cursive;
+}
+
+
+p,li {
+font-size: 25px;
+line-height: 1;
+letter-spacing: 1px;
+}
+
+body{
+width: 720px;
+margin: 0 auto;
+background-color: #30BA32;
+padding: 0px 10px 40px 10px;
+border: 5px solid #9F3808;
+}
+h1{
+text-align: center;
+font-size: 40px;
+padding: 10px 10px 0px 10px;
+color: #791705;
+margin: 0 auto;
+background-color:#124829;
+border: 3px solid #9A250D;
+text-shadow: 5px 3px 2px black;
+}
+
+img{
+display:block;
+margin:0 auto;

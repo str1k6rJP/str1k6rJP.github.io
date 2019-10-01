@@ -1,0 +1,58 @@
+.pagetable>table{
+	width:100vmin;
+	height:100vmin;
+	background-color:blue;
+	border-collapse:collapse;
+text-align:center;
+vertical-align:middle;	
+}
+
+.pagetable #header {
+padding-top:0;
+margin-top:0;
+min-height:15%
+/*max-height:20%;*/
+}
+
+.pagetable #sidepan {
+width:20vmin;
+/*min-height:60%;
+max-height:70%;
+*/
+max-width:70%;
+text-align:center;
+border-spacing:2em;
+border-radius:1em;
+}
+.pagetable #sidepan table {
+height:100%;
+width:100%;
+border-spacing:1.3em;
+}
+
+.pagetable #sidepan table td{
+border:2px solid red;
+border-spacing:2em;
+border-radius:1em;
+
+background:grey;
+}
+
+.tablehead{
+width:95%;
+text-align:center;
+max-height:15vmin;
+        vertical-align:middle;
+	padding-top:0;
+	background:#38c838;
+	border-spacing: 3em;
+	border-radius: 5em;
+
+}
+
+.pagetable #footer {
+background-color:purple;
+height:10vmin;
+}
+
+

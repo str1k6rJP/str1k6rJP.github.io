@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+}
+
+.caption {
+	position: fixed;
+	top:0;
+	text-align: center;
+	width: 100%;
+	vertical-align: text-top;
+	color: navy;
+
+	background-color:#111;
+	background-image: url("../img/captcha-bg.gif");
+	
+	height: 15%;
+	
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    
+    font-size: 3em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    opacity:1;
+    
+}
+
+
+.bg {
+	background-attachment: scroll;
+	padding-top: 7%;
+
+  background-image: url("../img/source.gif");
+
+  height: 100%;
+
+  background-position: bottom ;
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-clip: content-box;
+  
+  opacity: 1;
+}
+
+header {
+  display: block;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+
+ .content-margin {
+ top-margin:10%;
+}
+
+
